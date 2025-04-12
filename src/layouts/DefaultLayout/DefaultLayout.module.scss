@@ -1,0 +1,15 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    width: var(--default-layout-width);
+    padding: 0 var(--default-layout-horizoltal-spacer);
+    margin-top: var(--default-layout-header-height);
+    display: flex;
+    background-color: aquamarine;
+}
+.content {
+    flex: 1;
+}
