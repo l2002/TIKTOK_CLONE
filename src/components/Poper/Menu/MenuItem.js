@@ -2,7 +2,6 @@ import Button from '~/components/Button';
 import classNames from 'classnames/bind';
 import styles from './Menu.module.scss';
 import PropTypes from 'prop-types';
-import { data } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 function MenuItem({ data, onClick }) {
