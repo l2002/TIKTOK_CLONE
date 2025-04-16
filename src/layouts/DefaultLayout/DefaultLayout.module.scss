@@ -5,10 +5,11 @@
 }
 .container {
     width: var(--default-layout-width);
+    max-width: 100%;
     padding: 0 var(--default-layout-horizoltal-spacer);
     margin-top: var(--default-layout-header-height);
     display: flex;
-    background-color: aquamarine;
+    background-color: var(--white);
 }
 .content {
     flex: 1;
